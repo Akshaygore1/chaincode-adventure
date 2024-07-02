@@ -1,0 +1,39 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.pixel-button {
+  font-size: 12px;
+  padding: 10px 20px;
+  background-color: #0bff24;
+  color: rgb(0, 0, 0);
+  border: 4px solid #1ff643;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  box-shadow: 0 4px #009921;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.pixel-button:active {
+  top: 4px;
+  box-shadow: none;
+}
+
+.msg {
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 2.4;
+}
